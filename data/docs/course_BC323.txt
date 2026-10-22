@@ -1,0 +1,4 @@
+مقرر BC323 - الواقع المختلط والمعزز (Mixed and Augmented Reality)
+الكود: BC323 | الساعات المعتمدة: 3 | المستوى: 3 | الفصل: الثاني | النوع: اختياري | تصنيف التقييم: P
+المتطلب السابق: RB311 (الرؤية الحسابية)
+الوصف: Mixed and augmented reality: augmented reality, virtual reality, mixed reality and designing effective 3D user interfaces.

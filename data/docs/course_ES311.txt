@@ -1,0 +1,4 @@
+مقرر ES311 - تطوير البرمجيات للأجهزة المحمولة (Software Development for Mobile Devices)
+الكود: ES311 | الساعات المعتمدة: 3 | المستوى: 3 | الفصل: الأول | النوع: إجباري | تصنيف التقييم: P
+المتطلب السابق: BC211 (البرمجة الشيئية)
+الوصف: Mobile software development: Android platform, hardware restrictions, graphical applications, Java and Swift, design patterns and a mobile project.

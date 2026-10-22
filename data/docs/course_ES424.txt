@@ -1,0 +1,4 @@
+مقرر ES424 - النانو تكنولوجي والذكاء الاصطناعي (Nanotechnology and Artificial Intelligence)
+الكود: ES424 | الساعات المعتمدة: 2 | المستوى: 4 | الفصل: الثاني | النوع: اختياري | تصنيف التقييم: T
+المتطلب السابق: لا يوجد
+الوصف: Nanotechnology and AI: scanning probe microscopy, nano systems, material classification at the nanoscale, nanocomputing hardware and convergence of AI and nanotechnology.

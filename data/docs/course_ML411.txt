@@ -1,0 +1,4 @@
+مقرر ML411 - تصميم الأنظمة للذكاء الاصطناعي (System Design for Artificial Intelligence)
+الكود: ML411 | الساعات المعتمدة: 2 | المستوى: 4 | الفصل: الأول | النوع: إجباري | تصنيف التقييم: P
+المتطلب السابق: BC312 (مقدمة في الخوارزميات)
+الوصف: System design for AI: creating AI and big data powered products using design thinking, team of five students, product concept and final presentations.

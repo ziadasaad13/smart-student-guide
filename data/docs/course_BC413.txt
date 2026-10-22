@@ -1,0 +1,4 @@
+مقرر BC413 - المنطق والعملاء (Reasoning and Agents)
+الكود: BC413 | الساعات المعتمدة: 2 | المستوى: 4 | الفصل: الأول | النوع: اختياري | تصنيف التقييم: T
+المتطلب السابق: BC312 (مقدمة في الخوارزميات)
+الوصف: Reasoning and agents: knowledge representation, reasoning, planning, representing action, space and time, inference under uncertainty.

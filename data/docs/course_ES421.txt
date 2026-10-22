@@ -1,0 +1,4 @@
+مقرر ES421 - الممارسة المهنية في الذكاء الاصطناعي (Professional Practice in Artificial Systems)
+الكود: ES421 | الساعات المعتمدة: 3 | المستوى: 4 | الفصل: الثاني | النوع: إجباري | تصنيف التقييم: P
+المتطلب السابق: ML412 (أنظمة دعم القرار الذكية)
+الوصف: Professional practice: ethical practice, practice and project management, legal requirements, cash flow, risk and professional liability, and career planning.

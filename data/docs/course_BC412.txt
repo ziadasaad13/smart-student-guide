@@ -1,0 +1,4 @@
+مقرر BC412 - تكنولوجيا الحوسبة داخل الهاتف (The Computing Technology Inside Your Smartphone)
+الكود: BC412 | الساعات المعتمدة: 2 | المستوى: 4 | الفصل: الأول | النوع: اختياري | تصنيف التقييم: T
+المتطلب السابق: ES311 (تطوير البرمجيات للأجهزة المحمولة)
+الوصف: Computing technology inside a smartphone: digital logic, computer organization, instruction sets, application software, performance techniques and smartphone processors.

@@ -1,0 +1,4 @@
+مقرر ES423 - أساسيات الذكاء الاصطناعي في المدن الذكية (Fundamentals of Artificial Intelligence in Smart Cities)
+الكود: ES423 | الساعات المعتمدة: 2 | المستوى: 4 | الفصل: الثاني | النوع: اختياري | تصنيف التقييم: P
+المتطلب السابق: ES411 (إنترنت الأشياء)
+الوصف: AI in smart cities: digital technologies, urban infrastructure, urban analysis and governance, autonomous vehicles and micro grids.

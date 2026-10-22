@@ -1,0 +1,4 @@
+مقرر ML421 - الخوارزميات الجينية (Genetic Algorithms)
+الكود: ML421 | الساعات المعتمدة: 3 | المستوى: 4 | الفصل: الثاني | النوع: إجباري | تصنيف التقييم: P
+المتطلب السابق: ML412 (أنظمة دعم القرار الذكية)
+الوصف: Genetic algorithms: selection, crossover, mutation, fitness functions, genetic programming, fuzzy logic, evolution strategies and applications in bioinformatics.

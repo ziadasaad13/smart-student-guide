@@ -1,0 +1,4 @@
+مقرر MA122 - تحليل عددي (Numerical Analysis)
+الكود: MA122 | الساعات المعتمدة: 3 | المستوى: 1 | الفصل: الثاني | النوع: اختياري | تصنيف التقييم: P
+المتطلب السابق: MA113 (مقدمة في الجبر الخطي)
+الوصف: Numerical methods: numerical differentiation and integration, solving ordinary and partial differential equations, limited precision computing, programming in C++, C or Matlab.

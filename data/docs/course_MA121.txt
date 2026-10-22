@@ -1,0 +1,4 @@
+مقرر MA121 - احتمالات وإحصاء 2 (Probability & Statistics 2)
+الكود: MA121 | الساعات المعتمدة: 2 | المستوى: 1 | الفصل: الثاني | النوع: إجباري | تصنيف التقييم: T
+المتطلب السابق: MA116 (احتمالات وإحصاء 1)
+الوصف: Sampling distributions, central limit theorem, point and interval estimation, hypothesis testing, chi square test, correlation and regression.

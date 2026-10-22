@@ -1,0 +1,4 @@
+مقرر BC421 - اختبار البرمجيات (Software Testing)
+الكود: BC421 | الساعات المعتمدة: 3 | المستوى: 4 | الفصل: الثاني | النوع: إجباري | تصنيف التقييم: P
+المتطلب السابق: ML411 (تصميم الأنظمة للذكاء الاصطناعي)
+الوصف: Software testing: selecting testing strategies and techniques, using test tools, assessing effectiveness of testing.

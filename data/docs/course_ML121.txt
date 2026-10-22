@@ -1,0 +1,4 @@
+مقرر ML121 - مفاهيم في الذكاء الاصطناعي (Concepts in Artificial Intelligence)
+الكود: ML121 | الساعات المعتمدة: 2 | المستوى: 1 | الفصل: الثاني | النوع: إجباري | تصنيف التقييم: T
+المتطلب السابق: MA112 (أساسيات الحاسب)
+الوصف: Core concepts of AI: history, problem solving with search algorithms and heuristics, knowledge representation (logic, semantic networks, ontologies), machine learning basics, image analysis and ethical considerations.

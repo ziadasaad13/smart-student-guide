@@ -1,0 +1,4 @@
+مقرر ML311 - أساسيات التعلم العميق (Fundamentals of Deep Learning)
+الكود: ML311 | الساعات المعتمدة: 3 | المستوى: 3 | الفصل: الأول | النوع: إجباري | تصنيف التقييم: P
+المتطلب السابق: ML211 (مقدمة في تعلم الآلة)
+الوصف: Deep learning: neural networks, activation functions, backpropagation, optimization, CNNs, RNNs and LSTM, autoencoders, GANs, transfer learning, TensorFlow, Keras and PyTorch.

@@ -1,0 +1,4 @@
+مقرر MA112 - أساسيات الحاسب (Computer Fundamentals)
+الكود: MA112 | الساعات المعتمدة: 3 | المستوى: 1 | الفصل: الأول | النوع: إجباري | تصنيف التقييم: P
+المتطلب السابق: لا يوجد
+الوصف: Fundamental concepts of computer systems: evolution of computers, CPU, memory, storage, input and output devices, operating systems (Windows, MacOS, Linux), data representation (binary, hexadecimal, ASCII) and programming fundamentals such as loops and functions.

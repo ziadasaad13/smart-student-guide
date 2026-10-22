@@ -1,0 +1,4 @@
+مقرر ML412 - أنظمة دعم القرار الذكية (Intelligent Decision Support Systems)
+الكود: ML412 | الساعات المعتمدة: 2 | المستوى: 4 | الفصل: الأول | النوع: إجباري | تصنيف التقييم: P
+المتطلب السابق: BC311 (الحوسبة المتوازية والموزعة)
+الوصف: Intelligent decision support systems: complex domains, analysis, design, implementation and validation of IDSS, integration of AI and statistical models and knowledge discovery from data.

@@ -1,0 +1,4 @@
+مقرر MA222 - أساسيات علوم النانو (Fundamental Science of Nanotechnology)
+الكود: MA222 | الساعات المعتمدة: 2 | المستوى: 2 | الفصل: الثاني | النوع: اختياري | تصنيف التقييم: T
+المتطلب السابق: لا يوجد
+الوصف: Nanotechnology fundamentals: size dependent properties, nanomaterials, nanoparticles synthesis and applications in engineering, biomedical, energy and environmental fields.

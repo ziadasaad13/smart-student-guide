@@ -1,0 +1,4 @@
+مقرر BC224 - أنظمة التشغيل (Operating Systems)
+الكود: BC224 | الساعات المعتمدة: 2 | المستوى: 2 | الفصل: الثاني | النوع: إجباري | تصنيف التقييم: T
+المتطلب السابق: BC212 (بنية الحاسب)
+الوصف: Operating systems: virtual memory, threads, context switches, kernels, interrupts, system calls, interprocess communication, UNIX and implementing a small operating system in C.

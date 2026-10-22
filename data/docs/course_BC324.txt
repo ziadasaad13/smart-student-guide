@@ -1,0 +1,4 @@
+مقرر BC324 - التمثيل المعرفي (Knowledge Representation)
+الكود: BC324 | الساعات المعتمدة: 3 | المستوى: 3 | الفصل: الثاني | النوع: اختياري | تصنيف التقييم: P
+المتطلب السابق: BC222 (أساسيات الذكاء الحسابي)
+الوصف: Knowledge representation: propositional logic, first order logic, reasoning about action, change and situations, and agents with incomplete information.

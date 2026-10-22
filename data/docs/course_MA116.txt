@@ -1,0 +1,4 @@
+مقرر MA116 - احتمالات وإحصاء 1 (Probability & Statistics 1)
+الكود: MA116 | الساعات المعتمدة: 2 | المستوى: 1 | الفصل: الأول | النوع: إجباري | تصنيف التقييم: T
+المتطلب السابق: لا يوجد
+الوصف: Descriptive statistics, rules of probability, conditional probability, Bayes rule, random variables, discrete distributions (binomial, Poisson) and continuous distributions (normal, exponential).

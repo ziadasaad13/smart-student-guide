@@ -1,0 +1,5 @@
+مقرر GP411 - مشروع (أ) (Intelligent System Project (a))
+الكود: GP411 | الساعات المعتمدة: 3 | المستوى: 4 | الفصل: الأول | النوع: إجباري | تصنيف التقييم: G
+المتطلب السابق: لا يوجد
+ملاحظة: يتطلب اجتياز 100 ساعة معتمدة (مادة 14)
+الوصف: Intelligent System Project (a): building a large-scale system as a team, combining material from several courses, final demonstration and formal presentation. Requires passing 100 credit hours.

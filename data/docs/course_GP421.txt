@@ -1,0 +1,5 @@
+مقرر GP421 - مشروع (ب) (Intelligent System Project (b))
+الكود: GP421 | الساعات المعتمدة: 3 | المستوى: 4 | الفصل: الثاني | النوع: إجباري | تصنيف التقييم: G
+المتطلب السابق: GP411 (مشروع (أ))
+ملاحظة: الخطة تكتب كود المشروع (ب) 411GP؛ استخدمنا GP421 ومتطلبه مشروع (أ) لأن المشروع على فصلين متتاليين (مادة 14) - افتراض من الفريق
+الوصف: Intelligent System Project (b): continuation of project (a) over the second semester, with final demonstration and oral discussion.

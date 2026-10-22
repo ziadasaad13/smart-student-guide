@@ -1,0 +1,4 @@
+مقرر BC122 - تصميم منطقي (Logic Design)
+الكود: BC122 | الساعات المعتمدة: 2 | المستوى: 1 | الفصل: الثاني | النوع: إجباري | تصنيف التقييم: P
+المتطلب السابق: MA114 (دوائر كهربية)
+الوصف: Logic design: number systems, Boolean algebra, gates and truth tables, combinational logic, multiplexers, adders, sequential logic, flip flops, latches, registers and counters.

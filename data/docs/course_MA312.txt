@@ -1,0 +1,4 @@
+مقرر MA312 - تحليل البيانات (Data Analysis)
+الكود: MA312 | الساعات المعتمدة: 3 | المستوى: 3 | الفصل: الأول | النوع: اختياري | تصنيف التقييم: P
+المتطلب السابق: BC223 (مقدمة في هياكل البيانات)
+الوصف: Data analysis: conditional independence, discrete and continuous distributions, central limit theorem, descriptive and inferential statistics, hypothesis testing and correlation analysis.

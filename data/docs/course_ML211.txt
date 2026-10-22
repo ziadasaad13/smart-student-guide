@@ -1,0 +1,5 @@
+مقرر ML211 - مقدمة في تعلم الآلة (Introduction to Machine Learning)
+الكود: ML211 | الساعات المعتمدة: 3 | المستوى: 2 | الفصل: الأول | النوع: إجباري | تصنيف التقييم: P
+المتطلب السابق: ML121 (مفاهيم في الذكاء الاصطناعي)
+المحاضر: د/ محمود الصباغ
+الوصف: Machine learning: linear models for regression and classification, decision trees, support vector machines, neural networks, ensemble methods, unsupervised learning, dimension reduction and evaluation methods.

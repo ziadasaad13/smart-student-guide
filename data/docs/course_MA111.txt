@@ -1,0 +1,5 @@
+مقرر MA111 - رياضيات 0 (Mathematics-0)
+الكود: MA111 | الساعات المعتمدة: 0 | المستوى: 1 | الفصل: الأول | النوع: إجباري | تصنيف التقييم: T
+المتطلب السابق: لا يوجد
+ملاحظة: لطلبة علمي علوم فقط - بدون ساعات معتمدة - شرط تخرج لهم (مادة 4)
+الوصف: Functions, relations, limits, trigonometric functions, differentiation, integration, definite integrals and applications, geometry and measurements in 2D and 3D. Non-credit course for science-stream students.

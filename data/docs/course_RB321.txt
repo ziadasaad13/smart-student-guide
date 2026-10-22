@@ -1,0 +1,4 @@
+مقرر RB321 - أساسيات التعامل المعرفي مع الروبوتات (Fundamentals of Cognitive Interaction with Robots)
+الكود: RB321 | الساعات المعتمدة: 3 | المستوى: 3 | الفصل: الثاني | النوع: إجباري | تصنيف التقييم: P
+المتطلب السابق: RB311 (الرؤية الحسابية)
+الوصف: Cognitive interaction with robots: embodiment, robot construction, programming and cognitive robotics case studies using LEGO Mindstorms NXT.

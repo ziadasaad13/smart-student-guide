@@ -1,0 +1,4 @@
+مقرر MA211 - المعلوماتية الحيوية (Bioinformatics)
+الكود: MA211 | الساعات المعتمدة: 2 | المستوى: 2 | الفصل: الأول | النوع: اختياري | تصنيف التقييم: T
+المتطلب السابق: MA121 (احتمالات وإحصاء 2)
+الوصف: Bioinformatics: biological databases, sequence alignment, gene and protein structure prediction, molecular phylogenetics, genomics and proteomics.

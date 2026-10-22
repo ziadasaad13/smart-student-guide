@@ -1,0 +1,4 @@
+مقرر ES321 - الحوسبة السحابية (Cloud Computing)
+الكود: ES321 | الساعات المعتمدة: 3 | المستوى: 3 | الفصل: الثاني | النوع: إجباري | تصنيف التقييم: P
+المتطلب السابق: ES211 (شبكات الحاسب)
+الوصف: Cloud computing: MapReduce, key-value and NoSQL stores, leader election, mutual exclusion, concurrency control, replication and scalability.

@@ -1,0 +1,4 @@
+مقرر BC223 - مقدمة في هياكل البيانات (Introduction to Data Structures)
+الكود: BC223 | الساعات المعتمدة: 2 | المستوى: 2 | الفصل: الثاني | النوع: إجباري | تصنيف التقييم: T
+المتطلب السابق: BC211 (البرمجة الشيئية)
+الوصف: Data structures: binary trees, binary search trees, balanced trees, graphs, hash tables, stacks, queues, linked lists, sorting and searching algorithms, abstract data types.

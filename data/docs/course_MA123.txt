@@ -1,0 +1,4 @@
+مقرر MA123 - الرياضيات المتقطعة (Discrete Mathematics)
+الكود: MA123 | الساعات المعتمدة: 3 | المستوى: 1 | الفصل: الثاني | النوع: اختياري | تصنيف التقييم: T
+المتطلب السابق: لا يوجد
+الوصف: Discrete mathematics: formal logic, proof methods, induction, sets, relations, graph theory, modular arithmetic, counting principles, permutations and combinations, discrete probability.

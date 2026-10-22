@@ -1,0 +1,4 @@
+مقرر RB311 - الرؤية الحسابية (Computational Vision)
+الكود: RB311 | الساعات المعتمدة: 3 | المستوى: 3 | الفصل: الأول | النوع: إجباري | تصنيف التقييم: P
+المتطلب السابق: RB211 (مقدمة في الرؤية بالحاسب والروبوتات)
+الوصف: Computational vision: image formation, image operations, segmentation, key point extraction, pattern recognition, face recognition and object recognition.

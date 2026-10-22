@@ -1,0 +1,4 @@
+مقرر BC321 - التنقيب في البيانات وتحليل البيانات الضخمة (Data Mining and Big Data Analysis)
+الكود: BC321 | الساعات المعتمدة: 3 | المستوى: 3 | الفصل: الثاني | النوع: إجباري | تصنيف التقييم: P
+المتطلب السابق: BC311 (الحوسبة المتوازية والموزعة)
+الوصف: Data mining and big data analysis: clustering, classification, pattern mining, big data analytics tools, Python and Jupyter notebooks and a course project.

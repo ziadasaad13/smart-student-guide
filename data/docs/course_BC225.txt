@@ -1,0 +1,4 @@
+مقرر BC225 - مقدمة في تصميم الأنظمة متعددة العملاء (Introduction to Multi Agent Systems Design)
+الكود: BC225 | الساعات المعتمدة: 2 | المستوى: 2 | الفصل: الثاني | النوع: إجباري | تصنيف التقييم: P
+المتطلب السابق: BC211 (البرمجة الشيئية)
+الوصف: Intelligent agents and multi agent systems: agent types and architecture, coordination methods, ontologies and a team lab project.

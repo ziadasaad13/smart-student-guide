@@ -1,0 +1,4 @@
+مقرر BC226 - أمان الحاسب (Computer Security)
+الكود: BC226 | الساعات المعتمدة: 2 | المستوى: 2 | الفصل: الثاني | النوع: إجباري | تصنيف التقييم: T
+المتطلب السابق: ES211 (شبكات الحاسب)
+الوصف: Computer security: confidentiality, integrity, authentication, cryptography, digital signatures, network security, intrusion detection, risk management, legal and ethical issues.

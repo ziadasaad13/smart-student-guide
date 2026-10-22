@@ -1,0 +1,5 @@
+مقرر RB411 - الرؤية الاصطناعية والتعرف على الأنماط (Artificial Vision and Pattern Recognition)
+الكود: RB411 | الساعات المعتمدة: 2 | المستوى: 4 | الفصل: الأول | النوع: إجباري | تصنيف التقييم: P
+المتطلب السابق: ML311 (أساسيات التعلم العميق)
+ملاحظة: الخطة تذكر ML311 كمتطلب بينما توصيف المقرر يذكر BC311 - راجعوا الكلية
+الوصف: Artificial vision and pattern recognition: edge detection, segmentation, stereopsis, motion analysis, object recognition, knowledge representation and neural computing for vision.

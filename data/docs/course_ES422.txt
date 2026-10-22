@@ -1,0 +1,4 @@
+مقرر ES422 - التعلم العميق للسيارات ذاتية القيادة (Deep Learning for Self-Driving Cars)
+الكود: ES422 | الساعات المعتمدة: 2 | المستوى: 4 | الفصل: الثاني | النوع: اختياري | تصنيف التقييم: P
+المتطلب السابق: RB411 (الرؤية الاصطناعية والتعرف على الأنماط)
+الوصف: Deep learning for self-driving cars: OpenCV lane detection, perceptron, convolutional networks for traffic signs, deep neural networks, Keras and MIT Deep Traffic simulator.

@@ -1,0 +1,4 @@
+مقرر ES411 - إنترنت الأشياء (Internet of Things)
+الكود: ES411 | الساعات المعتمدة: 3 | المستوى: 4 | الفصل: الأول | النوع: إجباري | تصنيف التقييم: P
+المتطلب السابق: ES211 (شبكات الحاسب)
+الوصف: Internet of Things: IoT architecture, hardware platforms, wireless technologies, networking protocols, security and privacy, cloud integration and building an IoT prototype.

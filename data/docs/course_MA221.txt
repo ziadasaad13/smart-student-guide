@@ -1,0 +1,4 @@
+مقرر MA221 - أساسيات الرسم بالحاسب (Fundamentals of Computer Graphics)
+الكود: MA221 | الساعات المعتمدة: 2 | المستوى: 2 | الفصل: الثاني | النوع: اختياري | تصنيف التقييم: P
+المتطلب السابق: RB211 (مقدمة في الرؤية بالحاسب والروبوتات)
+الوصف: Computer graphics: 2D and 3D graphics, color models, affine transformations, viewing, clipping, illumination, shading, texture maps, rendering, GPU programming and graphics API.

@@ -1,0 +1,4 @@
+مقرر MA115 - رياضيات 1 (Mathematics 1)
+الكود: MA115 | الساعات المعتمدة: 2 | المستوى: 1 | الفصل: الأول | النوع: إجباري | تصنيف التقييم: T
+المتطلب السابق: لا يوجد
+الوصف: First course in differential and integral calculus: limits, continuity, derivatives, rules of differentiation, integration techniques, the Fundamental Theorem of Calculus, applications and basic differential equations.

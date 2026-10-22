@@ -1,0 +1,5 @@
+مقرر ES211 - شبكات الحاسب (Computer Networks)
+الكود: ES211 | الساعات المعتمدة: 2 | المستوى: 2 | الفصل: الأول | النوع: إجباري | تصنيف التقييم: P
+المتطلب السابق: MA112 (أساسيات الحاسب)
+المحاضر: د/ زينب حسن
+الوصف: Computer networks: protocols, layering, TCP/IP, routing, flow and congestion control, data link, error detection, wireless networks, software-defined networking and socket programming.

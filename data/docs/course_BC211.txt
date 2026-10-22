@@ -1,0 +1,5 @@
+مقرر BC211 - البرمجة الشيئية (Object Oriented Programming)
+الكود: BC211 | الساعات المعتمدة: 3 | المستوى: 2 | الفصل: الأول | النوع: إجباري | تصنيف التقييم: P
+المتطلب السابق: BC111 (البرمجة الهيكلية)
+المحاضر: د/ فاطمة طلعت
+الوصف: Object oriented programming with C++: classes, object oriented design, Standard Template Library, searching and sorting, event driven programming, memory management.

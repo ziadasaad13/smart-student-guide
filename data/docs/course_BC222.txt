@@ -1,0 +1,4 @@
+مقرر BC222 - أساسيات الذكاء الحسابي (Fundamentals of Computational Intelligence)
+الكود: BC222 | الساعات المعتمدة: 2 | المستوى: 2 | الفصل: الثاني | النوع: إجباري | تصنيف التقييم: P
+المتطلب السابق: ML211 (مقدمة في تعلم الآلة)
+الوصف: Computational intelligence: neural networks, evolutionary algorithms, fuzzy systems, probabilistic methods, reinforcement learning and soft computing.

@@ -1,0 +1,4 @@
+مقرر MA114 - دوائر كهربية (Electric Circuits)
+الكود: MA114 | الساعات المعتمدة: 3 | المستوى: 1 | الفصل: الأول | النوع: إجباري | تصنيف التقييم: T
+المتطلب السابق: لا يوجد
+الوصف: Basic electric circuits, Ohm's law, Kirchhoff's law, capacitors, inductors, circuit analysis, semiconductor devices, diodes, transistors, filters, rectification and amplifiers.

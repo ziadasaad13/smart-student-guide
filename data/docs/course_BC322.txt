@@ -1,0 +1,4 @@
+مقرر BC322 - نماذج تصميم البرمجيات (Software Design Patterns)
+الكود: BC322 | الساعات المعتمدة: 3 | المستوى: 3 | الفصل: الثاني | النوع: اختياري | تصنيف التقييم: P
+المتطلب السابق: BC211 (البرمجة الشيئية)
+الوصف: Software design patterns: creational, structural and behavioral patterns, architectural patterns, anti-patterns, object oriented design principles and a team project.

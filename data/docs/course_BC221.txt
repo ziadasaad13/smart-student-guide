@@ -1,0 +1,4 @@
+مقرر BC221 - قواعد البيانات (Databases)
+الكود: BC221 | الساعات المعتمدة: 3 | المستوى: 2 | الفصل: الثاني | النوع: إجباري | تصنيف التقييم: P
+المتطلب السابق: BC111 (البرمجة الهيكلية)
+الوصف: Databases: ER and relational models, relational algebra, SQL, index structures, concurrency control, recovery, query processing, NoSQL and distributed databases.

@@ -1,0 +1,5 @@
+مقرر MA212 - استرجاع المعلومات والبحث في الويب (Information Retrieval and Web Search)
+الكود: MA212 | الساعات المعتمدة: 2 | المستوى: 2 | الفصل: الأول | النوع: اختياري | تصنيف التقييم: T
+المتطلب السابق: BC111 (البرمجة الهيكلية)
+المحاضر: د/ فاطمة طلعت
+الوصف: Information retrieval and web search: index building, query processing, document ranking, TF-IDF, classification and clustering of text, crawling and link-based algorithms such as PageRank, Apache Lucene.

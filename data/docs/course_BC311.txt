@@ -1,0 +1,4 @@
+مقرر BC311 - الحوسبة المتوازية والموزعة (Parallel and Distributed Computing)
+الكود: BC311 | الساعات المعتمدة: 3 | المستوى: 3 | الفصل: الأول | النوع: إجباري | تصنيف التقييم: P
+المتطلب السابق: BC212 (بنية الحاسب)
+الوصف: Parallel and distributed computing: parallel programming with MPI, multithreading, OpenMP, GPU and CUDA, speedup, Amdahl's law and parallel algorithms.

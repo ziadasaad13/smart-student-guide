@@ -1,0 +1,5 @@
+مقرر RB211 - مقدمة في الرؤية بالحاسب والروبوتات (Introduction to Computer Vision and Robotics)
+الكود: RB211 | الساعات المعتمدة: 2 | المستوى: 2 | الفصل: الأول | النوع: إجباري | تصنيف التقييم: P
+المتطلب السابق: MA113 (مقدمة في الجبر الخطي)
+المحاضر: أ.د/ تامر مدحت
+الوصف: Robotics and vision: mobile robotics, manipulation, machine vision, sensing and closing the control loop; introduction to advanced robotics and vision modules.

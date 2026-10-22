@@ -1,0 +1,4 @@
+مقرر BC111 - البرمجة الهيكلية (Structured Programming)
+الكود: BC111 | الساعات المعتمدة: 3 | المستوى: 1 | الفصل: الأول | النوع: إجباري | تصنيف التقييم: P
+المتطلب السابق: لا يوجد
+الوصف: Introduction to program design using a modern programming language: data types, loops, nesting, functions, arrays, objects, classes, modularity, reusability and good programming practices.

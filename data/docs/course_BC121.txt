@@ -1,0 +1,4 @@
+مقرر BC121 - مقدمة في البرمجة بلغة بايثون (Introduction to Programming with Python)
+الكود: BC121 | الساعات المعتمدة: 3 | المستوى: 1 | الفصل: الثاني | النوع: إجباري | تصنيف التقييم: P
+المتطلب السابق: BC111 (البرمجة الهيكلية)
+الوصف: Python programming: data types, control flow, object-oriented programming, graphical user interface applications, text processing, basic unit tests.

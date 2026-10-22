@@ -1,0 +1,4 @@
+مقرر MA311 - معالجة الإشارات (Signal Processing)
+الكود: MA311 | الساعات المعتمدة: 3 | المستوى: 3 | الفصل: الأول | النوع: اختياري | تصنيف التقييم: P
+المتطلب السابق: MA115 (رياضيات 1)
+الوصف: Signal processing: signals and systems, LTI systems, Fourier series and transform, sampling theorem, Laplace transform, Z-transform and filter design.

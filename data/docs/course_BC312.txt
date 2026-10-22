@@ -1,0 +1,4 @@
+مقرر BC312 - مقدمة في الخوارزميات (Introduction to Algorithms)
+الكود: BC312 | الساعات المعتمدة: 3 | المستوى: 3 | الفصل: الأول | النوع: إجباري | تصنيف التقييم: T
+المتطلب السابق: BC223 (مقدمة في هياكل البيانات)
+الوصف: Introduction to algorithms with C++: time and space complexity, Big O notation, implementing data structures, designing and analyzing algorithms.

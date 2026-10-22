@@ -1,0 +1,4 @@
+مقرر MA113 - مقدمة في الجبر الخطي (Introduction to Linear Algebra)
+الكود: MA113 | الساعات المعتمدة: 3 | المستوى: 1 | الفصل: الأول | النوع: إجباري | تصنيف التقييم: T
+المتطلب السابق: لا يوجد
+الوصف: Vectors, systems of linear equations, matrices, eigenvalues and eigenvectors, orthogonality, linear independence, span, bases and abstract vector spaces.

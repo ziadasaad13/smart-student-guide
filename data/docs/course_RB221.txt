@@ -1,0 +1,4 @@
+مقرر RB221 - مقدمة في معالجة اللغات الطبيعية (Introduction to Natural Language Processing)
+الكود: RB221 | الساعات المعتمدة: 2 | المستوى: 2 | الفصل: الثاني | النوع: إجباري | تصنيف التقييم: T
+المتطلب السابق: ML121 (مفاهيم في الذكاء الاصطناعي)
+الوصف: Natural language processing: syntax, semantics, pragmatics, statistical and linguistic approaches, NLTK, sentiment analysis and text classification.

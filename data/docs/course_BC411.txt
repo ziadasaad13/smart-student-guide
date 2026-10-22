@@ -1,0 +1,4 @@
+مقرر BC411 - نظم المعلومات الجغرافية (Geographical Information Systems)
+الكود: BC411 | الساعات المعتمدة: 2 | المستوى: 4 | الفصل: الأول | النوع: اختياري | تصنيف التقييم: T
+المتطلب السابق: BC321 (التنقيب في البيانات وتحليل البيانات الضخمة)
+الوصف: Geographical information systems: GIS concepts and principles, geographic and non-geographic environments, GIS programming tools and devices.

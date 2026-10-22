@@ -1,0 +1,5 @@
+مقرر BC212 - بنية الحاسب (Computer Architecture)
+الكود: BC212 | الساعات المعتمدة: 3 | المستوى: 2 | الفصل: الأول | النوع: إجباري | تصنيف التقييم: P
+المتطلب السابق: BC122 (تصميم منطقي)
+المحاضر: د/ بسمة حسن
+الوصف: Computer architecture: processor control and data path, pipelining, superscalar execution, memory and storage systems, assembly language and Verilog simulation.
