@@ -266,6 +266,9 @@ with st.sidebar:
         <div style="font-size: 2.8rem; line-height: 1;">🤖</div>
         <h3 style="margin: 8px 0 2px 0; font-weight: 800; color: #1e1b4b;">Smart Student Guide</h3>
         <p style="margin: 0; font-size: 0.85rem; color: #64748b;">كلية الذكاء الاصطناعي - كفر الشيخ</p>
+        <div style="margin-top: 6px; display: inline-block; background: #fdf2f8; color: #db2777; border: 1px solid #fbcfe8; padding: 2px 10px; border-radius: 12px; font-size: 0.8rem; font-weight: 700;">
+            فريق: قصة عشق ❤️
+        </div>
     </div>
     """, unsafe_allow_html=True)
 
@@ -317,6 +320,7 @@ st.markdown("""
     <div class="hero-subtitle">
         <span>مقرر الذكاء الاصطناعي — كلية الذكاء الاصطناعي (جامعة كفر الشيخ)</span>
         <span class="badge-task">Task 1: AI Assignment</span>
+        <span class="badge-task" style="background: rgba(236, 72, 153, 0.25); border-color: rgba(244, 114, 182, 0.45); font-weight: 800;">❤️ فريق: قصة عشق</span>
     </div>
 </div>
 """, unsafe_allow_html=True)
@@ -669,3 +673,10 @@ else:
         st.subheader("📜 سجل الاستعلامات والعمليات الفعلي (queries.log)")
         logs = admin_service.view_logs(50)
         st.text_area("أحدث السجلات:", value="\n".join(logs), height=400)
+
+# Footer
+st.markdown("""
+<div style="text-align: center; color: #64748b; font-size: 0.88rem; padding: 30px 0 10px 0; border-top: 1px solid #e2e8f0; margin-top: 40px;">
+    تم التطوير وتصميم النظام بواسطة فريق <b style="color: #db2777;">قصة عشق ❤️</b> — مقرر الذكاء الاصطناعي (جامعة كفر الشيخ) 2026
+</div>
+""", unsafe_allow_html=True)
