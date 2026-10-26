@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>دليل الشرح الشامل للمشروع | فريق قصة عشق ❤️</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #1e1b4b;
+            --indigo: #4f46e5;
+            --rose: #e11d48;
+            --text-main: #0f172a;
+            --text-muted: #475569;
+            --bg-page: #f8fafc;
+            --bg-card: #ffffff;
+            --border: #e2e8f0;
+        }
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: 'Cairo', 'IBM Plex Sans Arabic', sans-serif;
+            background-color: var(--bg-page);
+            color: var(--text-main);
+            line-height: 1.8;
+            padding: 40px 15px;
+        }
+        .container {
+            max-width: 950px;
+            margin: 0 auto;
+            background: var(--bg-card);
+            padding: 50px 60px;
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.05);
+            border: 1px solid var(--border);
+        }
+        .top-bar {
+            background: linear-gradient(135deg, #1e1b4b 0%, #312e81 100%);
+            color: white;
+            padding: 16px 24px;
+            border-radius: 14px;
+            margin-bottom: 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .btn-print {
+            background: var(--rose);
+            color: white;
+            border: none;
+            padding: 9px 20px;
+            border-radius: 8px;
+            font-family: 'Cairo', sans-serif;
+            font-weight: 700;
+            font-size: 0.92rem;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        .btn-print:hover {
+            background: #be123c;
+            transform: translateY(-2px);
+        }
+        .header-box {
+            text-align: center;
+            border-bottom: 2px dashed #cbd5e1;
+            padding-bottom: 35px;
+            margin-bottom: 40px;
+        }
+        .tag-univ {
+            background: #e0e7ff;
+            color: #3730a3;
+            padding: 4px 16px;
+            border-radius: 20px;
+            font-weight: 700;
+            font-size: 0.88rem;
+            display: inline-block;
+            margin-bottom: 12px;
+        }
+        .main-title {
+            font-size: 2.2rem;
+            font-weight: 900;
+            color: var(--primary);
+            margin-bottom: 8px;
+        }
+        .sub-title {
+            font-size: 1.1rem;
+            color: var(--text-muted);
+            font-weight: 600;
+            margin-bottom: 16px;
+        }
+        .team-badge {
+            background: linear-gradient(135deg, #e11d48 0%, #be123c 100%);
+            color: white;
+            padding: 7px 22px;
+            border-radius: 30px;
+            font-weight: 800;
+            font-size: 1rem;
+            display: inline-block;
+            box-shadow: 0 4px 15px rgba(225, 29, 72, 0.3);
+        }
+        h2 {
+            font-size: 1.35rem;
+            color: var(--primary);
+            margin: 35px 0 15px 0;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #e2e8f0;
+            position: relative;
+        }
+        h2::after {
+            content: "";
+            position: absolute;
+            bottom: -2px;
+            right: 0;
+            width: 70px;
+            height: 2px;
+            background: var(--indigo);
+        }
+        h3 {
+            font-size: 1.1rem;
+            color: #1e293b;
+            margin: 22px 0 10px 0;
+        }
+        p, li {
+            font-size: 1rem;
+            color: #334155;
+            margin-bottom: 10px;
+            text-align: justify;
+        }
+        ul, ol {
+            padding-right: 24px;
+            margin-bottom: 18px;
+        }
+        .card-box {
+            background: #f8fafc;
+            border: 1px solid #e2e8f0;
+            border-radius: 12px;
+            padding: 18px 22px;
+            margin: 16px 0;
+            border-right: 4px solid var(--indigo);
+        }
+        .code-snippet {
+            background: #0f172a;
+            color: #f8fafc;
+            padding: 16px 20px;
+            border-radius: 10px;
+            font-family: 'Consolas', 'Courier New', monospace;
+            direction: ltr;
+            text-align: left;
+            font-size: 0.88rem;
+            line-height: 1.6;
+            margin: 14px 0;
+            overflow-x: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 0.95rem;
+        }
+        th, td {
+            padding: 10px 14px;
+            border: 1px solid #cbd5e1;
+            text-align: right;
+        }
+        th {
+            background: #f1f5f9;
+            color: var(--primary);
+            font-weight: 800;
+        }
+        .footer-note {
+            text-align: center;
+            border-top: 1px solid #e2e8f0;
+            padding-top: 25px;
+            margin-top: 50px;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+        @media print {
+            body { background: white; padding: 0; }
+            .container { box-shadow: none; border: none; padding: 0; max-width: 100%; }
+            .top-bar { display: none; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="top-bar">
+        <div>
+            <span style="font-weight: 800; font-size: 1.05rem;">📄 مستند شرح المشروع لفريق قصة عشق</span>
+            <div style="font-size: 0.82rem; opacity: 0.85;">جاهز للمشاركة والمناقشة أو الطباعة والحفظ كـ PDF</div>
+        </div>
+        <button class="btn-print" onclick="window.print()">🖨️ طباعة المستند / حفظ كـ PDF</button>
+    </div>
+
+    <div class="header-box">
+        <span class="tag-univ">كلية الذكاء الاصطناعي — جامعة كفر الشيخ</span>
+        <h1 class="main-title">دليل الشرح الشامل للمشروع<br><span style="font-size: 1.6rem; color: #4f46e5;">Smart Student Guide (Task 1)</span></h1>
+        <div class="sub-title">شرح تفصيلي معماري وهندسي لكافة أجزاء النظام ومكوناته</div>
+        <div>
+            <span class="team-badge">❤️ إعداد وتطوير فريق العمل: قصة عشق</span>
+        </div>
+    </div>
+
+    <h2>1️⃣ فكرة التاسك المطلوب منا بالظبط (Task 1: Smart Student Guide)</h2>
+    <p>
+        المشروع هو <b>التاسك الأول لمقرر الذكاء الاصطناعي</b>، وهدفه بناء <b>نظام ذكي متكامل بلغة بايثون (Python)</b> لمساعدة طلاب كلية الذكاء الاصطناعي في الاستعلام عن لوائح الكلية، وتوصيف المقررات، وأعضاء هيئة التدريس، والقاعات، مع تقديم خدمة استدلال أكاديمي تجيب على السؤال الجوهري:
+    </p>
+    <div class="card-box" style="border-right-color: #ec4899;">
+        <b>السؤال المحوري للنظام:</b> <i>"ما هي المقررات التي يحق لي تسجيلها في الفصل القادم وفقاً لحالتي الأكاديمية؟" (Which courses am I eligible to register for?)</i>
+    </div>
+
+    <h2>2️⃣ الأركان الأربعة الأساسية في المشروع</h2>
+
+    <h3>🔹 1. محرك استرجاع المعلومات (Information Retrieval - IR)</h3>
+    <p><b>المسؤول عنه:</b> <code>src/ir_engine.py</code></p>
+    <ul>
+        <li><b>المعالجة المسبقة (Preprocessing):</b> توحيد الحروف العربية، حذف التشكيل والتنوين، حذف كلمات التوقف (Stopwords)، وتطبيق الجذع الخفيف (Light Stemming).</li>
+        <li><b>الفهرس المعكوس (Inverted Index):</b> مبني من الصفر لربط كل مصطلح بقائمة الوثائق وتكراره.</li>
+        <li><b>أوزان TF-IDF المنعمة:</b> حساب الأوزان النسبية للكلمات لمنع انحياز الوثائق الطويلة.</li>
+        <li><b>التشابه الزاوي (Cosine Similarity):</b> قياس الزاوية بين متجه الاستعلام ومتجهات الوثائق وترتيبها بدقة مع مقتطف ملون لموضع الكلمات.</li>
+    </ul>
+
+    <h3>🔹 2. تمثيل المعرفة ومحرك الاستدلال (Knowledge Representation & Inference)</h3>
+    <p><b>المسؤول عنه:</b> <code>src/knowledge_base.py</code></p>
+    <ul>
+        <li><b>نمذجة اللائحة:</b> تمثيل كامل لـ 62 مقرراً دراسياً وشبكة متطلباتها السابقة (Prerequisites).</li>
+        <li><b>محرك الاستدلال بالتعاقب الأمامي (Forward Chaining):</b> فحص المواد المجتازة للطالب ومقارنتها باللائحة، وتصنيف المقررات إلى: <b>متاحة للتسجيل (Eligible)</b> و <b>مقفلة (Locked)</b> مع ذكر السبب الدقيق.</li>
+        <li><b>قواعد اللائحة المطبقة:</b>
+            <ul>
+                <li>حساب الساعات وتحديد المستوى الدراسي (المستويات من 1 إلى 4).</li>
+                <li>فحص الإنذار الأكاديمي (المادة 22): تنبيه فوري إذا كان الـ CGPA أقل من 2.00 وتقييد التسجيل بـ 15 ساعة فقط.</li>
+                <li>حدود الساعات (المادة 8): حتى 21 ساعة للمتفوقين، 18 للعاديين، 12 للمتعثرين.</li>
+                <li>شرط مشروع التخرج GP411 (المادة 14): اجتياز 100 ساعة معتمدة.</li>
+                <li>تتبع شجرة المتطلبات المتسلسلة (Lineage Tree) عبر خوارزمية DFS.</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h3>🔹 3. إدارة الملفات والسجلات (File Handling & Logging)</h3>
+    <p><b>المسؤول عنه:</b> <code>src/file_manager.py</code></p>
+    <ul>
+        <li><b>TXT:</b> نصوص اللائحة الكاملة وتوصيف المقررات ودليل هيئة التدريس والقاعات.</li>
+        <li><b>CSV:</b> جدول المقررات الـ 62 (<code>courses.csv</code>)، الدكاترة (<code>staff.csv</code>)، القاعات (<code>rooms.csv</code>).</li>
+        <li><b>JSON:</b> شبكة القواعد (<code>knowledge_base.json</code>)، والأسئلة الشائعة (<code>faqs.json</code>).</li>
+        <li><b>LOG:</b> ملف السجلات (<code>data/queries.log</code>) يسجل كل استعلام مع الوقت والتاريخ وهوية المستخدم.</li>
+    </ul>
+
+    <h3>🔹 4. واجهات الاستخدام (Interfaces)</h3>
+    <ul>
+        <li><b>واجهة الطرفية (CLI):</b> تشغيل عبر <code>python main.py</code> بقوائم تفاعلية.</li>
+        <li><b>واجهة الويب المتطورة (Streamlit GUI):</b> تشغيل عبر <code>streamlit run app_gui.py</code>، وتتميز بتصميم داكن فاخر (Cyber Dark Theme)، وخط <b>IBM Plex Sans Arabic</b>، وشعار فريق <b>قصة عشق ❤️</b>، وبطاقات مقررات تفاعلية مع شريط تقدم إنجاز التخرج.</li>
+    </ul>
+
+    <h2>3️⃣ خريطة وهيكل ملفات المشروع</h2>
+    <div class="code-snippet">
+b:\dov\
+│
+├── data\                          # مجلد البيانات الأساسي
+│   ├── documents\                 # نصوص اللائحة والتوصيف (TXT)
+│   ├── courses.csv                # جدول المقررات الـ 62 (CSV)
+│   ├── staff.csv                  # بيانات أعضاء هيئة التدريس (CSV)
+│   ├── rooms.csv                  # بيانات القاعات والمعامل (CSV)
+│   ├── knowledge_base.json        # قواعد وحقائق اللائحة (JSON)
+│   ├── faqs.json                  # بنك الأسئلة الشائعة (JSON)
+│   └── queries.log                # ملف سجل العمليات والاستعلامات (LOG)
+│
+├── src\                           # الأكواد والمحركات البرمجية
+│   ├── ir_engine.py               # محرك الـ Inverted Index و TF-IDF
+│   ├── knowledge_base.py          # محرك الاستدلال المنطقي وقواعد اللائحة
+│   ├── file_manager.py            # قراءة وحفظ وتحديث الملفات
+│   ├── student_service.py         # خدمات بوابة الطالب
+│   └── admin_service.py           # خدمات بوابة الإدارة
+│
+├── app_gui.py                     # واجهة الويب المتطورة (Streamlit Web App)
+├── app_cli.py                     # واجهة التيرمينال التفاعلية (CLI)
+├── main.py                        # نقطة الدخول الرئيسية للنظام
+├── sample_runs.py                 # حزمة الاختبارات الشاملة التلقائية
+├── TEAM_EXPLANATION.html          # مستند شرح المشروع المنسق للتيم
+├── TEAM_EXPLANATION.md            # مستند شرح المشروع بصيغة ماركداون
+├── REPORT.html                    # التقرير الفني الجاهز للطباعة والـ PDF
+└── requirements.txt               # متطلبات بايثون اللازمة
+    </div>
+
+    <h2>4️⃣ أوامر التشغيل السريعة لأي فرد في التيم</h2>
+    <div class="code-snippet">
+# 1. لتشغيل واجهة الويب على المتصفح:
+streamlit run app_gui.py
+
+# 2. لتشغيل واجهة التيرمينال:
+python main.py
+
+# 3. لتشغيل حزمة الاختبارات الشاملة (Demo):
+python main.py --demo
+
+# 4. للبحث المباشر في لوائح الكلية:
+python main.py --search "مشروع التخرج"
+python main.py --check "ML211"
+    </div>
+
+    <div class="footer-note">
+        تم إعداد وتطوير النظام بالكامل بواسطة <b>فريق قصة عشق ❤️</b> — كلية الذكاء الاصطناعي (جامعة كفر الشيخ) 2026
+    </div>
+</div>
+
+</body>
+</html>
