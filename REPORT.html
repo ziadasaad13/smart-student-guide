@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>التقرير الفني - Smart Student Guide | فريق قصة عشق</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #312e81;
+            --primary-light: #4338ca;
+            --accent: #ec4899;
+            --text-main: #1e293b;
+            --text-muted: #64748b;
+            --bg-page: #f8fafc;
+            --bg-card: #ffffff;
+            --border: #e2e8f0;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Cairo', 'IBM Plex Sans Arabic', sans-serif;
+            background-color: var(--bg-page);
+            color: var(--text-main);
+            line-height: 1.8;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: var(--bg-card);
+            padding: 60px 70px;
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.05);
+            border: 1px solid var(--border);
+        }
+
+        /* Print Button Banner */
+        .print-banner {
+            background: linear-gradient(135deg, #1e1b4b 0%, #4338ca 100%);
+            color: white;
+            padding: 15px 25px;
+            border-radius: 12px;
+            margin-bottom: 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .btn-print {
+            background: #ec4899;
+            color: white;
+            border: none;
+            padding: 10px 22px;
+            border-radius: 8px;
+            font-family: 'Cairo', sans-serif;
+            font-weight: 700;
+            font-size: 0.95rem;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        .btn-print:hover {
+            background: #db2777;
+            transform: translateY(-2px);
+        }
+
+        /* Cover Header */
+        .cover-header {
+            text-align: center;
+            border-bottom: 3px solid #e0e7ff;
+            padding-bottom: 40px;
+            margin-bottom: 45px;
+        }
+        .univ-badge {
+            display: inline-block;
+            background: #eef2ff;
+            color: #4338ca;
+            padding: 6px 18px;
+            border-radius: 30px;
+            font-weight: 700;
+            font-size: 0.95rem;
+            margin-bottom: 15px;
+            border: 1px solid #c7d2fe;
+        }
+        .report-main-title {
+            font-size: 2.3rem;
+            font-weight: 900;
+            color: var(--primary);
+            line-height: 1.3;
+            margin-bottom: 12px;
+        }
+        .report-subtitle {
+            font-size: 1.15rem;
+            color: var(--text-muted);
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+        .team-pill {
+            display: inline-block;
+            background: linear-gradient(135deg, #ec4899 0%, #f43f5e 100%);
+            color: white;
+            padding: 8px 24px;
+            border-radius: 30px;
+            font-weight: 800;
+            font-size: 1.05rem;
+            box-shadow: 0 4px 15px rgba(236, 72, 153, 0.3);
+        }
+
+        /* Typography & Headings */
+        h2 {
+            font-size: 1.45rem;
+            color: var(--primary);
+            margin: 40px 0 18px 0;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #e2e8f0;
+            position: relative;
+        }
+        h2::after {
+            content: "";
+            position: absolute;
+            bottom: -2px;
+            right: 0;
+            width: 80px;
+            height: 2px;
+            background: #ec4899;
+        }
+        h3 {
+            font-size: 1.15rem;
+            color: #334155;
+            margin: 25px 0 12px 0;
+        }
+        p, li {
+            font-size: 1.02rem;
+            color: #334155;
+            margin-bottom: 12px;
+            text-align: justify;
+        }
+        ul, ol {
+            padding-right: 25px;
+            margin-bottom: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+
+        /* Data Tables */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: 0.95rem;
+        }
+        th, td {
+            padding: 12px 16px;
+            border: 1px solid #cbd5e1;
+            text-align: right;
+        }
+        th {
+            background-color: #f1f5f9;
+            color: var(--primary);
+            font-weight: 800;
+        }
+        tr:nth-child(even) {
+            background-color: #f8fafc;
+        }
+
+        /* Code & Formula Boxes */
+        .formula-box {
+            background: #f8fafc;
+            border-right: 4px solid var(--primary-light);
+            border: 1px solid #e2e8f0;
+            border-right-width: 4px;
+            border-right-color: var(--primary-light);
+            padding: 15px 20px;
+            border-radius: 10px;
+            margin: 18px 0;
+            font-family: 'Cairo', sans-serif;
+            direction: ltr;
+            text-align: left;
+            color: #1e1b4b;
+            font-weight: 600;
+        }
+        .code-block {
+            background: #0f172a;
+            color: #f8fafc;
+            padding: 18px 22px;
+            border-radius: 12px;
+            font-family: 'Consolas', 'Courier New', monospace;
+            direction: ltr;
+            text-align: left;
+            font-size: 0.9rem;
+            overflow-x: auto;
+            margin: 18px 0;
+            line-height: 1.6;
+        }
+
+        /* Callout Cards */
+        .callout {
+            background: #eff6ff;
+            border: 1px solid #bfdbfe;
+            border-right: 4px solid #3b82f6;
+            padding: 15px 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+        .callout-success {
+            background: #ecfdf5;
+            border: 1px solid #a7f3d0;
+            border-right: 4px solid #10b981;
+        }
+        .callout-warning {
+            background: #fffbeb;
+            border: 1px solid #fde68a;
+            border-right: 4px solid #f59e0b;
+        }
+
+        /* Footer */
+        .report-footer {
+            margin-top: 60px;
+            padding-top: 25px;
+            border-top: 1px solid #e2e8f0;
+            text-align: center;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+
+        /* Print Media Styles */
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+            .container {
+                box-shadow: none;
+                border: none;
+                padding: 0;
+                max-width: 100%;
+            }
+            .print-banner {
+                display: none;
+            }
+            h2 {
+                page-break-after: avoid;
+            }
+            table, .code-block, .formula-box {
+                page-break-inside: avoid;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <!-- Print Action Bar (Hidden when printing) -->
+    <div class="print-banner">
+        <div>
+            <span style="font-weight: 700; font-size: 1.05rem;">📄 مستند التقرير الفني المعتمد</span>
+            <div style="font-size: 0.82rem; opacity: 0.85;">جاهز للعرض والطباعة الفورية بصيغة PDF</div>
+        </div>
+        <button class="btn-print" onclick="window.print()">🖨️ طباعة التقرير / حفظ كـ PDF</button>
+    </div>
+
+    <!-- Cover Section -->
+    <div class="cover-header">
+        <div class="univ-badge">جامعة كفر الشيخ — كلية الذكاء الاصطناعي</div>
+        <h1 class="report-main-title">دليل الطالب الأكاديمي الذكي<br><span style="font-size: 1.8rem; font-weight: 700; color: #4338ca;">Smart Student Guide</span></h1>
+        <div class="report-subtitle">التقرير الفني الشامل لتصميم النظام والتشغيل التجريبي — Task 1: AI Assignment</div>
+        <div>
+            <span class="team-pill">❤️ إعداد وتطوير فريق العمل: قصة عشق</span>
+        </div>
+        <div style="margin-top: 15px; font-size: 0.9rem; color: #64748b;">العام الجامعي: 2026 م | نظام الساعات المعتمدة (برنامج 2023)</div>
+    </div>
+
+    <!-- Section 1 -->
+    <h2>1. البيانات العامة وتوصيف المشروع</h2>
+    <table>
+        <tr>
+            <th style="width: 30%;">اسم المشروع / التاسك</th>
+            <td>Task 1: Smart Student Guide (دليل الطالب الأكاديمي الذكي)</td>
+        </tr>
+        <tr>
+            <th>المقرر الدراسي</th>
+            <td>مقرر الذكاء الاصطناعي (Artificial Intelligence Course)</td>
+        </tr>
+        <tr>
+            <th>الجهة الأكاديمية</th>
+            <td>كلية الذكاء الاصطناعي — جامعة كفر الشيخ</td>
+        </tr>
+        <tr>
+            <th>فريق العمل</th>
+            <td><b>فريق قصة عشق ❤️</b></td>
+        </tr>
+        <tr>
+            <th>اللائحة المستند إليها</th>
+            <td>اللائحة الرسمية لمرحلة البكالوريوس بنظام الساعات المعتمدة (برنامج 2023)</td>
+        </tr>
+        <tr>
+            <th>لغات وتقنيات التطوير</th>
+            <td>Python 3.14, Streamlit, HTML5/CSS3 (IBM Plex Sans Arabic), JSON, CSV</td>
+        </tr>
+    </table>
+
+    <!-- Section 2 -->
+    <h2>2. المقدمة والأهداف العامة</h2>
+    <p>
+        تعتمد الدراسة في كلية الذكاء الاصطناعي بجامعة كفر الشيخ على <b>نظام الساعات المعتمدة</b>، وهو نظام ديناميكي يتطلب من الطالب اتخاذ قرارات تسجيل فصلي دقيقة تستند إلى المتطلبات السابقة، ومعدله التراكمي (CGPA)، وحدود العبء الدراسي المسموح به.
+    </p>
+    <p>يهدف هذا النظام الذكي إلى تقديم حل برمجي متكامل يجيب على الاستفسارات الأكاديمية للطالب ويقوم بالاستدلال الآلي على المقررات المتاحة لتسجيله، وتوفير أدوات إدارة مرنة للمسؤولين الأكاديميين.</p>
+
+    <!-- Section 3 -->
+    <h2>3. تحليل لائحة الكلية وقواعد المعرفة (Bylaws Analysis)</h2>
+    <p>تم استخراج كافة القواعد المنطقية والأكاديمية من اللائحة الرسمية للكلية لعام 2023:</p>
+    <ul>
+        <li><b>متطلبات التخرج (المادة 5):</b> اجتياز 144 ساعة معتمدة بنجاح بمعدل تراكمي لا يقل عن 2.00 من 4.00.</li>
+        <li><b>المستويات الدراسية (المادة 16):</b> المستوى الأول (&lt; 30 ساعة)، المستوى الثاني (30 - 64 ساعة)، المستوى الثالث (65 - 99 ساعة)، المستوى الرابع (100+ ساعة).</li>
+        <li><b>حدود ساعات التسجيل (المادة 8):</b>
+            <ul>
+                <li>الحد الأدنى للتسجيل في الفصول النظامية: 9 ساعات معتمدة.</li>
+                <li>معدل تراكمي 3.00 فأكثر أو فصل التخرج: حتى 21 ساعة معتمدة.</li>
+                <li>معدل تراكمي من 2.00 إلى 2.99: 18 ساعة معتمدة.</li>
+                <li>معدل تراكمي من 1.00 إلى 1.99: مقيد بـ 15 ساعة معتمدة.</li>
+                <li>معدل تراكمي أقل من 1.00: مقيد بـ 12 ساعة معتمدة فقط.</li>
+            </ul>
+        </li>
+        <li><b>الإنذار الأكاديمي (المادة 22):</b> يوجه للطالب إنذار ويوضع تحت الملاحظة إذا انخفض معدله عن 2.00. يفصل الطالب عند تلقي 4 إنذارات متتالية أو 6 متفرقة.</li>
+        <li><b>مشروع التخرج (المادة 14):</b> يشترط اجتياز 100 ساعة معتمدة للتسجيل (6 ساعات على فصلين).</li>
+        <li><b>التدريب الصيفي (المادة 19):</b> إجباري (4 ساعات معتمدة) ويشترط اجتياز 50% من ساعات التخرج (72 ساعة).</li>
+    </ul>
+
+    <!-- Section 4 -->
+    <h2>4. محرك استرجاع المعلومات (Information Retrieval Engine)</h2>
+    <p>تم بناء محرك استرجاع المعلومات بالكامل من الصفر (From Scratch) في ملف <code>src/ir_engine.py</code>، ويشمل:</p>
+
+    <h3>4.1 المعالجة المسبقة للنصوص (Preprocessing)</h3>
+    <p>يشمل معالج نصوص عربي وإنجليزي مخصص يقوم بحذف التشكيل والتطويل، وتوحيد الألف والياء والتاء المربوطة، وحذف كلمات التوقف (Stopwords)، وتطبيق الجذع الخفيف (Light Stemming) لإزالة السوابق واللواحق الشائعة.</p>
+
+    <h3>4.2 الأوزان الحسابية (Smooth TF-IDF)</h3>
+    <div class="formula-box">
+        TF(t, d) = count(t, d) / total_terms(d)<br>
+        IDF(t) = ln((N + 1) / (DF(t) + 1)) + 1<br>
+        w(t, d) = TF(t, d) * IDF(t)
+    </div>
+
+    <h3>4.3 الترتيب بتشابه جيب التمام (Cosine Similarity)</h3>
+    <div class="formula-box">
+        CosineSim(q, d) = (w_q · w_d) / (||w_q|| * ||w_d||)
+    </div>
+    <p>يقوم المحرك بفهرسة 58 مقطعاً دلالياً من لوائح الكلية وتوصيف المقررات ودليل هيئة التدريس والقاعات والأسئلة الشائعة، مع استخراج مقتطفات ملونة تُبرز مواضع التطابق فوراً.</p>
+
+    <!-- Section 5 -->
+    <h2>5. تمثيل المعرفة ومحرك الاستدلال (Inference Engine)</h2>
+    <p>تم بناء محرك الاستدلال المنطقي في ملف <code>src/knowledge_base.py</code> بالاعتماد على قواعد الإنتاج والتعاقب الأمامي (Forward Chaining):</p>
+    <ul>
+        <li>فحص قائمة المقررات المجتازة بنجاح لكل طالب.</li>
+        <li>فحص شجرة المتطلبات السابقة لكل مقرر دراسي في اللائحة (62 مقرراً).</li>
+        <li>استنتاج قائمة المواد المؤهل لتسجيلها، والمقررات المقفلة مع المتطلبات المتبقية بدقة.</li>
+        <li>توليد التنبيهات الأكاديمية وحساب الحد الأقصى لساعات التسجيل.</li>
+    </ul>
+
+    <!-- Section 6 -->
+    <h2>6. نتائج الاختبار والتشغيل التجريبي (Sample Runs)</h2>
+    
+    <h3>نتائج استرجاع المعلومات (IR Search):</h3>
+    <table>
+        <tr>
+            <th>استعلام الطالب</th>
+            <th>الوثيقة الأولى المسترجعة</th>
+            <th>معامل التشابه (Cosine Sim)</th>
+        </tr>
+        <tr>
+            <td>مشروع التخرج وساعات تسجيله</td>
+            <td>مادة (14): مشروع التخرج (Graduation Project - GP411)</td>
+            <td><b>0.7056 (70.6%)</b></td>
+        </tr>
+        <tr>
+            <td>الإنذار الأكاديمي والملاحظة وفصل الطالب</td>
+            <td>مادة (22): الإنذار الأكاديمي والملاحظة الأكاديمية</td>
+            <td><b>0.5154 (51.5%)</b></td>
+        </tr>
+        <tr>
+            <td>Deep Learning neural networks</td>
+            <td>[ML311] Fundamentals of Deep Learning</td>
+            <td><b>0.6830 (68.3%)</b></td>
+        </tr>
+        <tr>
+            <td>أين يقع مكتب عميد الكلية</td>
+            <td>1. الأستاذ الدكتور / عميد الكلية (Dean of Faculty)</td>
+            <td><b>0.3118 (31.2%)</b></td>
+        </tr>
+    </table>
+
+    <h3>نتائج محرك الاستدلال (Inference Engine Scenarios):</h3>
+    <div class="callout callout-success">
+        <b>الحالة الأولى (طالب متفوق - CGPA 3.40):</b><br>
+        أنجز 18 ساعة معتمدة بالمستوى الأول. استنتج المحرك 19 مقرراً متاحاً للتسجيل مع حد أقصى 21 ساعة. وعند فحص مقرر مشروع التخرج <code>GP411</code> رفض التسجيل وأوضح السبب: <i>يتطلب اجتياز 100 ساعة معتمدة بنجاح</i>.
+    </div>
+
+    <div class="callout callout-warning">
+        <b>الحالة الثانية (طالب تحت الإنذار الأكاديمي - CGPA 1.70):</b><br>
+        أطلق المحرك تحذيراً رسمياً: <i>"تنبيه: معدلك التراكمي أقل من 2.00، أنت تحت الملاحظة الأكاديمية وفقاً للمادة (22)"</i>، وقيد الحد الأقصى لساعات التسجيل تلقائياً بـ <b>15 ساعة معتمدة فقط</b>.
+    </div>
+
+    <!-- Section 7 -->
+    <h2>7. واجهات المستخدم المبتكرة</h2>
+    <p>تم تطوير واجهتين متكاملتين للتحكم بالنظام:</p>
+    <ul>
+        <li><b>الواجهة الطرفية (Interactive CLI):</b> تعمل من الكونسول عبر <code>python main.py</code>.</li>
+        <li><b>واجهة الويب المتطورة (Next-Gen Dark Tech Streamlit UI):</b> تعمل عبر <code>streamlit run app_gui.py</code>، وتتميز بخط <b>IBM Plex Sans Arabic</b>، والسمة الداكنة الكحلية الفاخرة، والبطاقات التفاعلية مع شريط تقدم إنجاز التخرج، وإبراز اسم فريق <b>`قصة عشق ❤️`</b> في كافة الشاشات.</li>
+    </ul>
+
+    <!-- Footer -->
+    <div class="report-footer">
+        تم بحمد الله إعداد وتطوير التقرير والنظام بالكامل بواسطة <b>فريق قصة عشق ❤️</b> — كلية الذكاء الاصطناعي (جامعة كفر الشيخ) 2026
+    </div>
+</div>
+
+</body>
+</html>
