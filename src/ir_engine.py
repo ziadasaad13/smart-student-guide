@@ -160,6 +160,28 @@ class InvertedIndex:
             for sec_id, title, sec_text in sections:
                 self.add_document(sec_id, title, sec_text, filename)
 
+        # Also load and index faqs.json if present in parent data directory
+        parent_dir = os.path.dirname(docs_directory)
+        faqs_path = os.path.join(parent_dir, "faqs.json")
+        if os.path.exists(faqs_path):
+            try:
+                import json
+                with open(faqs_path, "r", encoding="utf-8") as f:
+                    faqs_data = json.load(f)
+                    for item in faqs_data:
+                        f_id = item.get("id", "faq")
+                        q_ar = item.get("question", "")
+                        q_en = item.get("question_en", "")
+                        ans = item.get("answer", "")
+                        self.add_document(
+                            doc_id=f"faq_{f_id}",
+                            title=f"سؤال شائع: {q_ar}",
+                            text=f"{q_ar}\n{q_en}\nالإجابة: {ans}",
+                            source_file="faqs.json"
+                        )
+            except Exception:
+                pass
+
         self.build()
 
     def _split_into_sections(self, content: str, filename: str) -> List[Tuple[str, str, str]]:
