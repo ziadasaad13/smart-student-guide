@@ -1,0 +1,132 @@
+Academic Course Descriptions and Syllabus
+كلية الذكاء الاصطناعي - جامعة كفر الشيخ - توصيف المقررات الدراسية
+
+[MA111] Mathematics-0 (رياضيات 0)
+Prerequisite: None
+Credit Hours: 0
+Functions, relations, limits, basic trigonometric functions, differentiation of different functions, calculus, definite integrals, applications, geometry, and measurements in 2D and 3D. Prerequisite requirement for high school scientific (general biology) students.
+
+[MA112] Computer Fundamentals (أساسيات الحاسب)
+Prerequisite: None
+Credit Hours: 3
+This course aims to introduce fundamental concepts that underlie computer systems, programming languages, and software development. Covers the evolution of computers, CPU architecture, memory, storage devices, input and output devices, operating systems (Windows, MacOS, Linux), data representation (binary, hexadecimal, ASCII), basic algorithms and programming constructs like loops, conditionals, and functions.
+
+[MA113] Introduction to Linear Algebra (مقدمة في الجبر الخطي)
+Prerequisite: None
+Credit Hours: 3
+Vectors, systems of linear equations, matrices, eigenvalues, eigenvectors, orthogonality, linear independence, span, bases, and abstract vector spaces. Crucial mathematical foundations for artificial intelligence, computer vision, and machine learning models.
+
+[BC111] Structured Programming (البرمجة الهيكلية)
+Prerequisite: None
+Credit Hours: 3
+Introduction to program design and analysis using modern programming languages (C/C++). Core programming concepts including variables, data types, control structures, loops, nested conditions, functions, parameter passing, arrays, modular program architecture, code reusability, and software maintenance.
+
+[ML121] Concepts in Artificial Intelligence (مفاهيم في الذكاء الاصطناعي)
+Prerequisite: MA112 (Computer Fundamentals)
+Credit Hours: 2
+Core concepts of Artificial Intelligence, history and philosophical foundations of AI, problem-solving techniques, state space search algorithms, heuristics, optimization methods, knowledge representation, logic, semantic networks, ontologies, introduction to supervised, unsupervised and reinforcement learning, decision trees, and introductory computer vision.
+
+[BC121] Introduction to Programming with Python (مقدمة في البرمجة بلغة بايثون)
+Prerequisite: BC111 (Structured Programming)
+Credit Hours: 3
+Syntax and features of Python, data structures (lists, tuples, dictionaries, sets), control flow, object-oriented programming in Python, file I/O, graphical user interfaces, text processing, image manipulation, scientific libraries, web programming, unit testing, and debugging.
+
+[BC122] Logic Design (التصميم المنطقي)
+Prerequisite: MA114 (Electric Circuits)
+Credit Hours: 2
+Number systems, binary arithmetic, Boolean algebra, logic gates, truth tables, combinational logic minimization (K-maps), multiplexers, demultiplexers, encoders, decoders, adders, subtractors, flip-flops, latches, registers, and sequential logic counters.
+
+[ML211] Introduction to Machine Learning (مقدمة في تعلم الآلة)
+Prerequisite: ML121 (Concepts in Artificial Intelligence)
+Credit Hours: 3
+Supervised learning, unsupervised learning, reinforcement learning, linear regression, logistic regression, decision trees, support vector machines (SVM), kernel methods, neural networks, ensemble learning, random forests, clustering (k-means, hierarchical), dimensionality reduction (PCA), model evaluation metrics, and cross-validation.
+
+[RB211] Introduction to Computer Vision and Robotics (مقدمة في الرؤية بالحاسب والروبوتات)
+Prerequisite: MA113 (Introduction to Linear Algebra)
+Credit Hours: 2
+Image processing fundamentals, edge detection, filtering, mobile robotics, manipulation robotics, robot kinematics, sensors, machine vision, actuation, feedback control loops, and robotic navigation in physical environments.
+
+[BC211] Object Oriented Programming (البرمجة الشيئية - OOP)
+Prerequisite: BC111 (Structured Programming)
+Credit Hours: 3
+Object-oriented programming paradigm using C++, classes, objects, abstraction, encapsulation, inheritance, polymorphism, method overloading, virtual functions, dynamic memory management, pointers, exception handling, and standard template library (STL).
+
+[BC212] Computer Architecture (بنية الحاسب)
+Prerequisite: BC122 (Logic Design)
+Credit Hours: 3
+Hardware structure of modern computers, processor design, control unit, datapath, pipelining, instruction level parallelism, superscalar execution, memory hierarchy, cache memory, virtual memory, storage systems, assembly language programming, and hardware description languages (Verilog).
+
+[ES211] Computer Networks (شبكات الحاسب)
+Prerequisite: MA112 (Computer Fundamentals)
+Credit Hours: 2
+Computer networking principles, OSI model, TCP/IP protocol suite, socket programming, application layer protocols (HTTP, DNS, FTP), transport layer (TCP, UDP), flow and congestion control, IP addressing, subnetting, routing algorithms, data link layer, wireless networks, network security, and SDN.
+
+[MA212] Information Retrieval and Web Search (استرجاع المعلومات والبحث في الويب)
+Prerequisite: BC111 (Structured Programming)
+Credit Hours: 2
+Web search engines, text retrieval, inverted index architecture, boolean retrieval, vector space model, TF-IDF term weighting, cosine similarity ranking, document clustering, text classification, evaluation metrics (precision, recall, F1, MAP), web crawling, and Google PageRank algorithm.
+
+[BC221] Databases (قواعد البيانات)
+Prerequisite: BC111 (Structured Programming)
+Credit Hours: 3
+Relational database management systems (RDBMS), Entity-Relationship (ER) modeling, relational algebra, SQL querying (DDL, DML, DQL), normalization forms (1NF, 2NF, 3NF, BCNF), indexing (B-trees, hash indices), transaction processing, ACID properties, concurrency control, and NoSQL databases.
+
+[BC222] Fundamentals of Computational Intelligence (أساسيات الذكاء الحسابي)
+Prerequisite: ML211 (Introduction to Machine Learning)
+Credit Hours: 2
+Nature-inspired computing, soft computing versus hard computing, artificial neural networks, evolutionary computation, genetic algorithms, fuzzy logic systems, fuzzy inference engines, probabilistic reasoning, and hybrid intelligent systems.
+
+[BC223] Introduction to Data Structures (مقدمة في هياكل البيانات)
+Prerequisite: BC211 (Object Oriented Programming)
+Credit Hours: 2
+Abstract Data Types (ADTs), linear and non-linear data structures, stacks, queues, linked lists (singly, doubly, circular), trees, binary search trees (BST), balanced trees (AVL), heap structures, hash tables, collision resolution, graph representation, asymptotic complexity, Big-O notation, and sorting and searching algorithms.
+
+[RB221] Introduction to Natural Language Processing (مقدمة في معالجة اللغات الطبيعية - NLP)
+Prerequisite: ML121 (Concepts in Artificial Intelligence)
+Credit Hours: 2
+Computational linguistics, natural language understanding, syntax parsing, semantics, part-of-speech tagging (POS), named entity recognition (NER), tokenization, stemming, lemmatization, N-gram language models, word embeddings (Word2Vec), sentiment analysis, text classification, and NLTK tools.
+
+[BC224] Operating Systems (أنظمة التشغيل)
+Prerequisite: BC212 (Computer Architecture)
+Credit Hours: 2
+Operating system concepts, kernel architecture, process management, CPU scheduling algorithms, multithreading, thread synchronization, semaphores, mutexes, deadlocks, virtual memory management, paging, segmentation, file system implementation, I/O systems, and UNIX/Linux system programming.
+
+[BC225] Introduction to Multi Agent Systems Design (مقدمة في تصميم الأنظمة متعددة العملاء)
+Prerequisite: BC211 (Object Oriented Programming)
+Credit Hours: 2
+Intelligent agent architectures, agent environments, reactive and deliberative agents, multi-agent systems coordination, communication protocols (FIPA, ACL), negotiation mechanisms, game-theoretic concepts, distributed problem solving, and agent development frameworks.
+
+[BC226] Computer Security (أمان الحاسب)
+Prerequisite: ES211 (Computer Networks)
+Credit Hours: 2
+Information security principles (CIA triad: confidentiality, integrity, availability), cryptography, symmetric encryption (AES, DES), asymmetric encryption (RSA), digital signatures, cryptographic hashes (SHA-256), authentication, network attacks, firewalls, intrusion detection systems, malware analysis, and security risk assessment.
+
+[ML311] Fundamentals of Deep Learning (أساسيات التعلم العميق)
+Prerequisite: ML211 (Introduction to Machine Learning)
+Credit Hours: 3
+Deep neural networks architectures, activation functions, backpropagation algorithms, optimization techniques (SGD, Adam), regularizations (dropout, batch normalization), Convolutional Neural Networks (CNNs) for image classification, Recurrent Neural Networks (RNNs), LSTM, GRU, Autoencoders, Generative Adversarial Networks (GANs), transfer learning, and deep learning frameworks (PyTorch, TensorFlow).
+
+[RB311] Computational Vision (الرؤية الحسابية)
+Prerequisite: RB211 (Introduction to Computer Vision and Robotics)
+Credit Hours: 3
+Advanced computer vision algorithms, image segmentation, feature extraction (SIFT, SURF, ORB), object detection (YOLO, Faster R-CNN), semantic segmentation, face recognition, motion tracking, optical flow, stereo vision, 3D reconstruction, and camera calibration.
+
+[BC312] Introduction to Algorithms (مقدمة في الخوارزميات)
+Prerequisite: BC223 (Introduction to Data Structures)
+Credit Hours: 3
+Design and analysis of efficient algorithms, divide-and-conquer, greedy algorithms, dynamic programming, graph algorithms (Dijkstra, Bellman-Ford, Kruskal, Prim), string matching algorithms, computational complexity classes (P, NP, NP-Complete), and amortized analysis.
+
+[BC324] Knowledge Representation (التمثيل المعرفي)
+Prerequisite: BC222 (Fundamentals of Computational Intelligence)
+Credit Hours: 3
+Knowledge representation formalisms, propositional logic, first-order predicate calculus, rule-based expert systems, forward chaining, backward chaining, semantic networks, frames, description logics, ontologies (OWL), reasoning under uncertainty, default reasoning, and automated deduction.
+
+[ES411] Internet of Things - IoT (إنترنت الأشياء)
+Prerequisite: ES211 (Computer Networks)
+Credit Hours: 3
+IoT architecture, sensors, actuators, microcontrollers (Arduino, Raspberry Pi, ESP32), wireless protocols (ZigBee, LoRa, BLE, MQTT, CoAP), cloud integration, edge computing, smart city applications, and IoT security.
+
+[GP411] Intelligent System Project - Graduation Project (مشروع التخرج)
+Prerequisite: 100 Passed Credit Hours
+Credit Hours: 6 (3 in Fall + 3 in Spring)
+Senior capstone graduation project. Students apply artificial intelligence, machine learning, computer vision, robotics, or data science to design and implement an end-to-end intelligent real-world system under academic supervision, evaluated via continuous assessment and formal defense.

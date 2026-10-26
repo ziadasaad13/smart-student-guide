@@ -1,0 +1,8 @@
+staff_id,name_ar,name_en,department,role,email,office_room,office_hours
+STF101,أ.د / عميد الكلية,Prof. Dean,Robotics and Intelligent Machines (RB),Dean,dean@ai.kfs.edu.eg,Room 301 (Floor 3),Sun & Tue (10:00 AM - 12:00 PM)
+STF102,أ.د / وكيل الكلية لشئون التعليم والطلاب,Prof. Vice Dean,Data Science (DS),Vice Dean,vice.dean@ai.kfs.edu.eg,Room 302 (Floor 3),Mon & Wed (11:00 AM - 1:00 PM)
+STF103,د. أحمد محمود السيد,Dr. Ahmed Mahmoud El-Sayed,Machine Learning (ML),Associate Professor,ahmed.elsayed@ai.kfs.edu.eg,Room 215 (Floor 2),Mon & Thu (12:00 PM - 2:00 PM)
+STF104,د. سارة عبد الرحمن علي,Dr. Sara Abdelrahman Ali,Basic Computer Science (BC),Assistant Professor,sara.ali@ai.kfs.edu.eg,Room 218 (Floor 2),Sun & Wed (1:00 PM - 3:00 PM)
+STF105,د. محمد حسن إبراهيم,Dr. Mohamed Hassan Ibrahim,Embedded Network Systems (ES),Associate Professor,mohamed.hassan@ai.kfs.edu.eg,Room 220 (Floor 2),Tue & Thu (10:00 AM - 12:00 PM)
+STF106,د. منى فؤاد الشافعي,Dr. Mona Fouad El-Shafei,Robotics and Intelligent Machines (RB),Assistant Professor,mona.elshafei@ai.kfs.edu.eg,Room 114 (Floor 1),Mon & Wed (10:00 AM - 12:00 PM)
+STF107,م. إسلام طارق عيسى,Eng. Eslam Tarek,Machine Learning (ML),Teaching Assistant,eslam.tarek@ai.kfs.edu.eg,Room 205 (Floor 2),Daily (9:00 AM - 3:00 PM)

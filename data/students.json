@@ -1,0 +1,80 @@
+{
+  "2023001": {
+    "student_id": "2023001",
+    "name": "Ahmed Ali",
+    "passed_courses": [
+      "BC111",
+      "HU111",
+      "MA111",
+      "MA112",
+      "MA113",
+      "MA114",
+      "MA115",
+      "MA116"
+    ],
+    "cgpa": 3.4,
+    "completed_semesters": 1,
+    "is_freshman_first_term": false
+  },
+  "2022045": {
+    "student_id": "2022045",
+    "name": "Mohamed Khaled",
+    "passed_courses": [
+      "HU111",
+      "MA112",
+      "MA115"
+    ],
+    "cgpa": 1.7,
+    "completed_semesters": 2,
+    "is_freshman_first_term": false
+  },
+  "2020012": {
+    "student_id": "2020012",
+    "name": "Sara Mahmoud",
+    "passed_courses": [
+      "BC111",
+      "BC121",
+      "BC122",
+      "BC211",
+      "BC212",
+      "BC221",
+      "BC222",
+      "BC223",
+      "BC224",
+      "BC225",
+      "BC226",
+      "BC311",
+      "BC312",
+      "BC321",
+      "BC324",
+      "ES211",
+      "ES311",
+      "ES321",
+      "HU111",
+      "HU121",
+      "HU122",
+      "HU211",
+      "HU321",
+      "MA111",
+      "MA112",
+      "MA113",
+      "MA114",
+      "MA115",
+      "MA116",
+      "MA121",
+      "MA122",
+      "MA212",
+      "MA311",
+      "ML121",
+      "ML211",
+      "ML311",
+      "RB211",
+      "RB221",
+      "RB311",
+      "RB321"
+    ],
+    "cgpa": 3.65,
+    "completed_semesters": 6,
+    "is_freshman_first_term": false
+  }
+}

@@ -1,0 +1,252 @@
+{
+  "faculty": "كلية الذكاء الاصطناعي - جامعة كفر الشيخ (Faculty of Artificial Intelligence - Kafrelsheikh University)",
+  "system": "نظام الساعات المعتمدة (Credit Hours System)",
+  "total_hours_for_graduation": 144,
+  "min_gpa_for_graduation": 2.0,
+  "min_regular_hours": 9,
+  "max_summer_hours": 9,
+  "min_attendance_percentage": 75.0,
+  "absence_warning_percentage": 20.0,
+  "absence_denial_percentage": 25.0,
+  "academic_level_thresholds": {
+    "Level 1": {
+      "min_hours": 0,
+      "max_hours": 29
+    },
+    "Level 2": {
+      "min_hours": 30,
+      "max_hours": 64
+    },
+    "Level 3": {
+      "min_hours": 65,
+      "max_hours": 99
+    },
+    "Level 4": {
+      "min_hours": 100,
+      "max_hours": 999
+    }
+  },
+  "credit_limit_rules": [
+    {
+      "condition": "freshman_first_semester",
+      "min_cgpa": 0.0,
+      "max_cgpa": 4.0,
+      "max_credit_hours": 18,
+      "description": "الطلاب المستجدون في أول فصل دراسي"
+    },
+    {
+      "condition": "cgpa_gte_3",
+      "min_cgpa": 3.0,
+      "max_cgpa": 4.0,
+      "max_credit_hours": 21,
+      "description": "معدل تراكمي 3.00 فأكثر أو في فصل التخرج"
+    },
+    {
+      "condition": "cgpa_2_to_3",
+      "min_cgpa": 2.0,
+      "max_cgpa": 2.999,
+      "max_credit_hours": 18,
+      "description": "معدل تراكمي من 2.00 حتى أقل من 3.00"
+    },
+    {
+      "condition": "cgpa_1_to_2",
+      "min_cgpa": 1.0,
+      "max_cgpa": 1.999,
+      "max_credit_hours": 15,
+      "description": "تحت الملاحظة الأكاديمية (CGPA من 1.00 إلى 1.99)"
+    },
+    {
+      "condition": "cgpa_lt_1",
+      "min_cgpa": 0.0,
+      "max_cgpa": 0.999,
+      "max_credit_hours": 12,
+      "description": "تحت الملاحظة الشديدة (CGPA أقل من 1.00)"
+    }
+  ],
+  "standing_rules": {
+    "good_standing": {
+      "min_cgpa": 2.0,
+      "status": "Good Standing (حالة أكاديمية جيدة)"
+    },
+    "probation": {
+      "max_cgpa": 1.999,
+      "status": "Academic Probation (تحت الملاحظة الأكاديمية - إنذار)"
+    }
+  },
+  "special_requirements": {
+    "GP411": {
+      "type": "credit_threshold",
+      "required_hours": 100,
+      "message": "يتطلب تسجيل مشروع التخرج اجتياز 100 ساعة معتمدة على الأقل بنجاح (المادة 14 من اللائحة)."
+    },
+    "FIELD_TRAINING": {
+      "type": "credit_threshold",
+      "required_hours": 72,
+      "message": "يتطلب التدريب الصيفي الميداني اجتياز 50% من ساعات التخرج (72 ساعة معتمدة) على الأقل (المادة 19 من اللائحة)."
+    }
+  },
+  "prerequisites": {
+    "MA111": [],
+    "MA112": [],
+    "MA113": [],
+    "HU111": [],
+    "MA114": [],
+    "BC111": [],
+    "MA115": [],
+    "MA116": [],
+    "ML121": [
+      "MA112"
+    ],
+    "BC121": [
+      "BC111"
+    ],
+    "MA121": [
+      "MA116"
+    ],
+    "HU121": [],
+    "HU122": [],
+    "BC122": [
+      "MA114"
+    ],
+    "MA122": [
+      "MA113"
+    ],
+    "MA123": [],
+    "ML211": [
+      "ML121"
+    ],
+    "RB211": [
+      "MA113"
+    ],
+    "BC211": [
+      "BC111"
+    ],
+    "BC212": [
+      "BC122"
+    ],
+    "ES211": [
+      "MA112"
+    ],
+    "HU211": [
+      "HU111"
+    ],
+    "MA211": [
+      "MA121"
+    ],
+    "MA212": [
+      "BC111"
+    ],
+    "BC221": [
+      "BC111"
+    ],
+    "BC222": [
+      "ML211"
+    ],
+    "BC223": [
+      "BC211"
+    ],
+    "RB221": [
+      "ML121"
+    ],
+    "BC224": [
+      "BC212"
+    ],
+    "BC225": [
+      "BC211"
+    ],
+    "BC226": [
+      "ES211"
+    ],
+    "MA221": [
+      "RB211"
+    ],
+    "MA222": [],
+    "RB311": [
+      "RB211"
+    ],
+    "ML311": [
+      "ML211"
+    ],
+    "BC311": [
+      "BC212"
+    ],
+    "BC312": [
+      "BC223"
+    ],
+    "ES311": [
+      "BC211"
+    ],
+    "MA311": [
+      "MA115"
+    ],
+    "MA312": [
+      "BC223"
+    ],
+    "RB321": [
+      "RB311"
+    ],
+    "HU321": [],
+    "BC321": [
+      "BC311"
+    ],
+    "ES321": [
+      "ES211"
+    ],
+    "BC322": [
+      "BC211"
+    ],
+    "BC323": [
+      "RB311"
+    ],
+    "BC324": [
+      "BC222"
+    ],
+    "ES411": [
+      "ES211"
+    ],
+    "ML411": [
+      "BC312"
+    ],
+    "ML412": [
+      "BC311"
+    ],
+    "RB411": [
+      "ML311"
+    ],
+    "HU411": [],
+    "GP411": [
+      "SPECIAL_100_HOURS"
+    ],
+    "BC411": [
+      "BC321"
+    ],
+    "BC412": [
+      "ES311"
+    ],
+    "BC413": [
+      "BC312"
+    ],
+    "GP421": [
+      "GP411"
+    ],
+    "ES421": [
+      "ML412"
+    ],
+    "BC421": [
+      "ML411"
+    ],
+    "ML421": [
+      "ML412"
+    ],
+    "ES422": [
+      "RB411"
+    ],
+    "ES423": [
+      "ES411"
+    ],
+    "ES424": [],
+    "AI499": [
+      "ML311"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+# Smart Student Guide - Query Log Started 2026-10-26T19:26:31.061387
+[2026-10-26 19:26:31] [USER: STUDENT] [TYPE: INFORMATION_RETRIEVAL] Query: "مشروع التخرج وساعات تسجيله" | Outcome: Found 2 matches (Top: مادة (14): مشروع التخرج (Graduation Project - GP411))
+[2026-10-26 19:26:31] [USER: STUDENT] [TYPE: INFORMATION_RETRIEVAL] Query: "الإنذار الأكاديمي والملاحظة وفصل الطالب" | Outcome: Found 2 matches (Top: مادة (22): الإنذار الأكاديمي والملاحظة الأكاديمية (Academic Probation))
+[2026-10-26 19:26:31] [USER: STUDENT] [TYPE: INFORMATION_RETRIEVAL] Query: "Deep Learning neural networks" | Outcome: Found 2 matches (Top: [ML311] Fundamentals of Deep Learning (أساسيات التعلم العميق))
+[2026-10-26 19:26:31] [USER: STUDENT] [TYPE: INFORMATION_RETRIEVAL] Query: "أين يقع مكتب عميد الكلية وقاعات المحاضرات" | Outcome: Found 2 matches (Top: 1. الأستاذ الدكتور / عميد الكلية (Dean of Faculty))
+[2026-10-26 19:26:31] [USER: STUDENT] [TYPE: INFORMATION_RETRIEVAL] Query: "Data structures and sorting algorithms" | Outcome: Found 2 matches (Top: [BC223] Introduction to Data Structures (مقدمة في هياكل البيانات))
+[2026-10-26 19:26:31] [USER: STUDENT] [TYPE: INFORMATION_RETRIEVAL] Query: "شروط الحصول على مرتبة الشرف" | Outcome: Found 2 matches (Top: مادة (17): مرتبة الشرف (Degree with Honors))
+[2026-10-26 19:26:31] [USER: STUDENT] [TYPE: INFERENCE_ELIGIBILITY] Query: "Which courses am I eligible to register for?" | Outcome: Inferred 19 eligible courses | Level: Level 1 (Freshman - المستوى الأول) | Standing: Good Standing (حالة مستجدة)
+[2026-10-26 19:26:31] [USER: STUDENT] [TYPE: INFERENCE_PREREQUISITE_CHECK] Query: "Can I register for ML121?" | Outcome: Eligible - نعم! أنت مؤهل لتسجيل مقرر ML121 (مفاهيم في الذكاء الاصطناعي). جميع المتطلبات السابقة مكتملة.
+[2026-10-26 19:26:31] [USER: STUDENT] [TYPE: INFERENCE_PREREQUISITE_CHECK] Query: "Can I register for GP411?" | Outcome: Ineligible - لا يمكنك تسجيل المقرر لعدم استيفاء المتطلبات السابقة: اجتياز 100 ساعة معتمدة بنجاح (المجتاز حالياً: 18 ساعة).
+[2026-10-26 19:26:31] [USER: STUDENT] [TYPE: INFERENCE_ELIGIBILITY] Query: "Which courses am I eligible to register for?" | Outcome: Inferred 16 eligible courses | Level: Level 1 (Freshman - المستوى الأول) | Standing: Academic Probation (تحت الملاحظة الأكاديمية - إنذار أكاديمي)
+[2026-10-26 19:26:31] [USER: STUDENT] [TYPE: INFERENCE_ELIGIBILITY] Query: "Which courses am I eligible to register for?" | Outcome: Inferred 17 eligible courses | Level: Level 4 (Senior - المستوى الرابع) | Standing: Good Standing (حالة أكاديمية جيدة)
+[2026-10-26 19:26:31] [USER: STUDENT] [TYPE: INFERENCE_PREREQUISITE_CHECK] Query: "Can I register for GP411?" | Outcome: Eligible - نعم! أنت مؤهل لتسجيل مقرر GP411 (مشروع التخرج أ). جميع المتطلبات السابقة مكتملة.
+[2026-10-26 19:26:31] [USER: STUDENT] [TYPE: INFERENCE_PREREQ_CHAIN] Query: "Prerequisite tree for ML411" | Outcome: Traversed 4 dependencies
+[2026-10-26 19:26:31] [USER: ADMIN] [TYPE: ADMIN_ACTION] Query: "Add Course AI499" | Outcome: Successfully added course AI499 (سيمنار الذكاء الاصطناعي المتقدم)
+[2026-10-26 19:26:31] [USER: ADMIN] [TYPE: ADMIN_ACTION] Query: "Add FAQ: ما هي مواعيد التقديم للمدينة الجامعية لط..." | Outcome: Created FAQ faq_11
+[2026-10-26 19:27:02] [USER: STUDENT] [TYPE: INFORMATION_RETRIEVAL] Query: "مشروع التخرج" | Outcome: Found 3 matches (Top: مادة (14): مشروع التخرج (Graduation Project - GP411))
+[2026-10-26 19:27:12] [USER: STUDENT] [TYPE: INFERENCE_PREREQUISITE_CHECK] Query: "Can I register for ML211?" | Outcome: Ineligible - لا يمكنك تسجيل المقرر لعدم استيفاء المتطلبات السابقة: ML121 (مفاهيم في الذكاء الاصطناعي).

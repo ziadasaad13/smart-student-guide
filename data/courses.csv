@@ -1,0 +1,65 @@
+course_code,title_en,title_ar,credit_hours,lecture_hours,lab_hours,course_type,department,prerequisite,level,semester
+MA111,Mathematics 0,رياضيات 0,0,2,0,Core,MA,None,1,1
+MA112,Computer Fundamentals,أساسيات الحاسب,3,2,2,Core,MA,None,1,1
+MA113,Introduction to Linear Algebra,مقدمة في الجبر الخطي,3,2,2,Core,MA,None,1,1
+HU111,English Language,لغة إنجليزية,2,2,0,Core,HU,None,1,1
+MA114,Electric Circuits,دوائر كهربية,3,2,2,Core,MA,None,1,1
+BC111,Structured Programming,البرمجة الهيكلية,3,3,3,Core,BC,None,1,1
+MA115,Mathematics 1,رياضيات 1,2,2,1,Core,MA,None,1,1
+MA116,Probability & Statistics 1,احتمالات وإحصاء 1,2,2,1,Core,MA,None,1,1
+ML121,Concepts in Artificial Intelligence,مفاهيم في الذكاء الاصطناعي,2,2,1,Core,ML,MA112,1,2
+BC121,Introduction to Programming with Python,مقدمة في البرمجة بلغة بايثون,3,2,2,Core,BC,BC111,1,2
+MA121,Probability & Statistics 2,احتمالات وإحصاء 2,2,2,1,Core,MA,MA116,1,2
+HU121,Scientific Thinking,التفكير العلمي,3,3,0,Core,HU,None,1,2
+HU122,Societal Issues,قضايا مجتمعية,3,2,0,Core,HU,None,1,2
+BC122,Logic Design,تصميم منطقي,2,2,2,Core,BC,MA114,1,2
+MA122,Numerical Analysis,تحليل عددي,3,2,2,Elective,MA,MA113,1,2
+MA123,Discrete Mathematics,الرياضيات المتقطعة,3,2,2,Elective,MA,None,1,2
+ML211,Introduction to Machine Learning,مقدمة في تعلم الآلة,3,2,2,Core,ML,ML121,2,1
+RB211,Introduction to Computer Vision and Robotics,مقدمة في الرؤية بالحاسب والروبوتات,2,2,2,Core,RB,MA113,2,1
+BC211,Object Oriented Programming,البرمجة الشيئية,3,2,2,Core,BC,BC111,2,1
+BC212,Computer Architecture,بنية الحاسب,3,2,1,Core,BC,BC122,2,1
+ES211,Computer Networks,شبكات الحاسب,2,2,2,Core,ES,MA112,2,1
+HU211,Scientific Writing,الكتابة العلمية,3,2,0,Core,HU,HU111,2,1
+MA211,Bioinformatics,المعلوماتية الحيوية,2,2,2,Elective,MA,MA121,2,1
+MA212,Information Retrieval and Web Search,استرجاع المعلومات والبحث في الويب,2,2,2,Elective,MA,BC111,2,1
+BC221,Databases,قواعد البيانات,3,2,2,Core,BC,BC111,2,2
+BC222,Fundamentals of Computational Intelligence,أساسيات الذكاء الحسابي,2,2,2,Core,BC,ML211,2,2
+BC223,Introduction to Data Structures,مقدمة في هياكل البيانات,2,2,2,Core,BC,BC211,2,2
+RB221,Introduction to Natural Language Processing,مقدمة في معالجة اللغات الطبيعية,2,2,2,Core,RB,ML121,2,2
+BC224,Operating Systems,أنظمة التشغيل,2,2,2,Core,BC,BC212,2,2
+BC225,Introduction to Multi Agent Systems Design,مقدمة في تصميم الأنظمة متعددة العملاء,2,2,2,Core,BC,BC211,2,2
+BC226,Computer Security,أمان الحاسب,2,2,2,Core,BC,ES211,2,2
+MA221,Fundamentals of Computer Graphics,أساسيات الرسم بالحاسب,2,2,2,Elective,MA,RB211,2,2
+MA222,Fundamental Science of Nanotechnology,أساسيات علوم النانو,2,2,2,Elective,MA,None,2,2
+RB311,Computational Vision,الرؤية الحسابية,3,2,2,Core,RB,RB211,3,1
+ML311,Fundamentals of Deep Learning,أساسيات التعلم العميق,3,2,2,Core,ML,ML211,3,1
+BC311,Parallel and Distributed Computing,الحوسبة المتوازية والموزعة,3,2,2,Core,BC,BC212,3,1
+BC312,Introduction to Algorithms,مقدمة في الخوارزميات,3,2,2,Core,BC,BC223,3,1
+ES311,Software Development for Mobile Devices,تطوير البرمجيات للأجهزة المحمولة,3,2,2,Core,ES,BC211,3,1
+MA311,Signal Processing,معالجة الإشارات,3,2,2,Elective,MA,MA115,3,1
+MA312,Data Analysis,تحليل البيانات,3,2,2,Elective,MA,BC223,3,1
+RB321,Fundamentals of Cognitive Interaction with Robots,أساسيات التعامل المعرفي مع الروبوتات,3,2,2,Core,RB,RB311,3,2
+HU321,Marketing and Presentation Skills,التسويق ومهارات التقديم,3,2,2,Core,HU,None,3,2
+BC321,Data Mining and Big Data Analysis,التنقيب في البيانات وتحليل البيانات الضخمة,3,2,2,Core,BC,BC311,3,2
+ES321,Cloud Computing,الحوسبة السحابية,3,2,2,Core,ES,ES211,3,2
+BC322,Software Design Patterns,نماذج تصميم البرمجيات,3,2,2,Elective,BC,BC211,3,2
+BC323,Mixed and Augmented Reality,الواقع المختلط والمعزز,3,2,2,Elective,BC,RB311,3,2
+BC324,Knowledge Representation,التمثيل المعرفي,3,2,2,Elective,BC,BC222,3,2
+ES411,Internet of Things,إنترنت الأشياء,3,2,2,Core,ES,ES211,4,1
+ML411,System Design for Artificial Intelligence,تصميم الأنظمة للذكاء الاصطناعي,2,2,2,Core,ML,BC312,4,1
+ML412,Intelligent Decision Support Systems,أنظمة دعم القرار الذكية,2,2,2,Core,ML,BC311,4,1
+RB411,Artificial Vision and Pattern Recognition,الرؤية الاصطناعية والتعرف على الأنماط,2,2,2,Core,RB,ML311,4,1
+HU411,Cognitive Psychology,علم النفس الإدراكي,2,2,0,Core,HU,None,4,1
+GP411,Intelligent System Project (a),مشروع التخرج أ,3,0,6,Core,GP,100_HOURS,4,1
+BC411,Geographical Information Systems,نظم المعلومات الجغرافية,2,3,0,Elective,BC,BC321,4,1
+BC412,The Computing Technology Inside Your Smartphone,تكنولوجيا الحوسبة داخل الهاتف,2,2,2,Elective,BC,ES311,4,1
+BC413,Reasoning and agents,المنطق والعملاء,2,2,2,Elective,BC,BC312,4,1
+GP421,Intelligent System Project (b),مشروع التخرج ب,3,0,6,Core,GP,GP411,4,2
+ES421,Professional Practice in Artificial Systems,الممارسة المهنية في الذكاء الاصطناعي,3,2,2,Core,ES,ML412,4,2
+BC421,Software Testing,اختبار البرمجيات,3,2,2,Core,BC,ML411,4,2
+ML421,Genetic Algorithms,الخوارزميات الجينية,3,2,2,Core,ML,ML412,4,2
+ES422,Deep learning for Self-Driving Cars,التعلم العميق للسيارات ذاتية القيادة,2,2,2,Elective,ES,RB411,4,2
+ES423,Fundamentals of Artificial Intelligence in Smart Cities,أساسيات الذكاء الاصطناعي في المدن الذكية,2,2,2,Elective,ES,ES411,4,2
+ES424,Nanotechnology and Artificial Intelligence,النانو تكنولوجي والذكاء الاصطناعي,2,2,0,Elective,ES,None,4,2
+AI499,Capstone AI Seminar,سيمنار الذكاء الاصطناعي المتقدم,3,2,2,Elective,ML,ML311,4,2

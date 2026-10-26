@@ -1,0 +1,8 @@
+room_code,building,floor,room_type,capacity,equipment,usage_description
+Hall-101,Main Academic Building,Ground Floor,Grand Lecture Hall,250,Interactive Smart Board 4K Projector Sound System Central AC,Level 1 and 2 Lectures Conferences
+Hall-102,Main Academic Building,First Floor,Lecture Hall,180,Projector Smart Board Sound System AC,Level 3 and 4 Lectures
+Room-201,Main Academic Building,Second Floor,Seminar Room,60,Smart Screen Video Conference System,Graduation Project Defenses Workshops
+Lab-101,East Wing,Ground Floor,Robotics & Intelligent Systems Lab,35,LEGO Mindstorms Robotic Arms Mobile Robots 3D Vision Sensors,Robotics & Computer Vision Labs
+Lab-201,Central Wing,Second Floor,Deep Learning & Cloud Lab,40,High-End PCs NVIDIA RTX GPUs Local Servers,Deep Learning Machine Learning Big Data Labs
+Lab-202,West Wing,Second Floor,Software & Networking Lab,45,Cisco Switches Routers Programming IDEs,Programming OS and Networks Labs
+Lab-301,East Wing,Third Floor,IoT & Embedded Systems Lab,35,Arduino Raspberry Pi 4 ESP32 Sensors Oscilloscopes,Internet of Things Embedded Systems Labs
